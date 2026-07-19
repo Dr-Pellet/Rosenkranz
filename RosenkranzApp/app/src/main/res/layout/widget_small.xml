@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_bg"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/widget_weekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Montag"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#5E8291"
+        android:letterSpacing="0.1" />
+
+    <TextView
+        android:id="@+id/widget_reihe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Freudenreiche Geheimnisse"
+        android:textSize="11sp"
+        android:textColor="#3B3830"
+        android:layout_marginTop="4dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/widget_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19. Juli 2026"
+        android:textSize="10sp"
+        android:textColor="#948D80"
+        android:layout_marginTop="2dp" />
+</LinearLayout>
